@@ -1,0 +1,63 @@
+html,
+body {
+  background: url(../assets/pokemon_background.png);
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.bug {
+  background: #aedf78;
+}
+
+.water {
+  background: #43ccff;
+}
+
+.grass {
+  background: #00ca91;
+}
+
+.fire {
+  background: #e95c40;
+}
+
+.normal {
+  background: #a5a5a5;
+}
+
+.fairy {
+  background: #ff96d0;
+}
+
+.electric {
+  background: #d9f829;
+}
+
+.ground {
+  background: #977070;
+}
+
+.poison {
+  background: #ac69c7;
+}
